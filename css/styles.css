@@ -1,0 +1,14 @@
+/* purgecss start ignore */
+
+/* purgecss end ignore */
+h1 {
+  font-family: 'Yellowtail', cursive;
+}
+
+.cursive {
+  font-family: 'Yellowtail', cursive;
+}
+
+.heading {
+  text-shadow: 2px 2px 2px #222;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "steph-30-birthday",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Stephanies 30 birthday",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "prettier -c **/*.{js,ts,tsx}",
+    "lint:fix": "prettier --write **/*.{js,ts,tsx}",
+    "start": "next start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint:fix"
+    }
+  },
+  "keywords": [
+    "nextjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-source-maps": "^0.0.3",
+    "framer-motion": "^2.3.0",
+    "next": "^9.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.45",
+    "autoprefixer": "^9.8.6",
+    "babel-jest": "^26.2.2",
+    "cypress": "^4.12.1",
+    "husky": "^4.2.5",
+    "postcss-import": "^12.0.1",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  }
+}
