@@ -38,7 +38,7 @@ export default function IndexPage() {
               <span className="bg-orange-600 text-white p-4 cursive">September 25th 2020 </span>
               <br />
             </h2>
-            <h3 className="text-3xl tracking-tight font-medium my-16">
+            <h3 className="text-3xl tracking-tight font-medium my-16"> and don your best attire
               for a <span className="bg-orange-600 text-white p-4 cursive">90's</span> Themed
               celebration.
             </h3>

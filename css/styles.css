@@ -2,13 +2,17 @@
 
 /* purgecss end ignore */
 h1 {
-  font-family: 'Yellowtail', cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .cursive {
-  font-family: 'Yellowtail', cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .heading {
   text-shadow: 2px 2px 2px #222;
+}
+
+body {
+  background: url('/microfab.gif');
 }
