@@ -57,7 +57,10 @@ export default function IndexPage() {
             </h2>
             <h3 className="text-3xl tracking-tight font-medium my-16">
               {" "}
-              and don your best attire for a{" "}
+              and don your best{" "}
+              <span className="bg-orange-600 text-white p-1 md:p-4 cursive">90's</span> themed
+              attire (OR dress as a{" "}
+              <span className="bg-orange-600 text-white p-1 md:p-4 cursive">90's</span> celeb) for a{" "}
               <span className="bg-orange-600 text-white p-1 md:p-4 cursive">90's</span> Themed
               celebration.
             </h3>
