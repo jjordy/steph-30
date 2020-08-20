@@ -58,7 +58,8 @@ export default function IndexPage() {
             <h3 className="text-3xl tracking-tight font-medium my-16">
               {" "}
               and don your best attire for a{" "}
-              <span className="bg-orange-600 text-white p-1 md:p-4 cursive">90's</span> Themed celebration.
+              <span className="bg-orange-600 text-white p-1 md:p-4 cursive">90's</span> Themed
+              celebration.
             </h3>
             {!showRSVPSuccess && (
               <button
@@ -68,11 +69,11 @@ export default function IndexPage() {
                 CLICK HERE TO RSVP <img src="mchammer.gif" alt="HAMMER TIME" />
               </button>
             )}
-            {showRSVPSuccess &&
+            {showRSVPSuccess && (
               <div className="cursive bg-orange-600 text-white shadow-xl px-6 py-2">
                 RSVP RECORDED
               </div>
-            }
+            )}
             {showRSVP && <RSVP onClose={() => setShowRSVP(false)} onSubmit={handleSubmitForm} />}
             <div className="flex flex-wrap items-center justify-center">
               <img src="tenor.gif" alt="WOW" className="w-48 h-48 object-contain" />

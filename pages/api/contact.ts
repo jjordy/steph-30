@@ -26,7 +26,7 @@ export default async (req, res) => {
     await transport.sendMail(emailMsg);
     return res.status(204).end();
   } catch (err) {
-    console.log(err)
+    console.log(err);
     logger.fatal({ message: err.message });
     res.status(500).end();
   }
