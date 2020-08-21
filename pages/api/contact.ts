@@ -13,6 +13,7 @@ export default async (req, res) => {
       pass: process.env.SMTP_PASSWORD,
     },
   });
+
   try {
     const emailMsg = {
       from: "rsvp@steph30.com",
